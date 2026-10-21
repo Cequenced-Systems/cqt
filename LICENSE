@@ -1,0 +1,10 @@
+Copyright (c) Cequenced Systems, LLC. All rights reserved.
+
+This software is proprietary to Cequenced Systems, LLC. No license, express
+or implied, is granted to use, copy, modify, merge, publish, distribute,
+sublicense or sell it, except under a separate written agreement with
+Cequenced Systems, LLC.
+
+Third-party components compiled into the cqt binary remain under their own
+licenses; `/license` in cqt and the SBOM published with each release list
+them.

@@ -1,0 +1,224 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:9c0d740b-83f8-4f27-a084-0e1ae6b60b54",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-21T00:51:44Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-gomod",
+        "version": "v1.12.0",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "19b771b68834e5f919b8391d2857da06"
+          },
+          {
+            "alg": "SHA-1",
+            "content": "8cefc7c6672e9a11e4349548a583a153907bcd75"
+          },
+          {
+            "alg": "SHA-256",
+            "content": "ac1b6883f87f6a72012b25a9df8352eb6f490791c7d71ef98969e889f58b5da2"
+          },
+          {
+            "alg": "SHA-384",
+            "content": "92825dba4ec13207dde98dedcad95b7021b2f5f31f04ecc213794be49efaca64375c4dd09fb6ede4a8cc09032ed688ec"
+          },
+          {
+            "alg": "SHA-512",
+            "content": "b3668c56f6e30eff2a716ec965b818486ab6f6fca88f58aec1a820deb7004e4093df18af77a8f984c32280a741a14b6fe3696e7e83390b33832fc498a68c5979"
+          }
+        ],
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-gomod",
+            "type": "vcs"
+          },
+          {
+            "url": "https://cyclonedx.org",
+            "type": "website"
+          }
+        ]
+      }
+    ],
+    "component": {
+      "bom-ref": "pkg:golang/github.com/Cequenced-Systems/cequencedteamcli_venus@v26.10.21.2?type=module#cmd/cqt",
+      "type": "application",
+      "name": "github.com/Cequenced-Systems/cequencedteamcli_venus",
+      "version": "v26.10.21.2",
+      "purl": "pkg:golang/github.com/Cequenced-Systems/cequencedteamcli_venus@v26.10.21.2?goarch=arm64&goos=linux&type=module#cmd/cqt",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Cequenced-Systems/cequencedteamcli_venus",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:gomod:build:env:CGO_ENABLED",
+          "value": "0"
+        },
+        {
+          "name": "cdx:gomod:build:env:GOARCH",
+          "value": "arm64"
+        },
+        {
+          "name": "cdx:gomod:build:env:GOOS",
+          "value": "linux"
+        },
+        {
+          "name": "cdx:gomod:build:env:GOVERSION",
+          "value": "go1.27.2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Proprietary, all rights reserved"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) Cequenced Systems, LLC. All rights reserved."
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/github.com/BurntSushi/toml@v1.6.0?type=module",
+      "type": "library",
+      "name": "github.com/BurntSushi/toml",
+      "version": "v1.6.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7516847e96b6548e791309485bbda13111dd5a8b8979117b4cf62123e0144239"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:golang/github.com/BurntSushi/toml@v1.6.0?goarch=arm64&goos=linux&type=module",
+      "externalReferences": [
+        {
+          "url": "https://github.com/BurntSushi/toml",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/google/uuid@v1.6.0?type=module",
+      "type": "library",
+      "name": "github.com/google/uuid",
+      "version": "v1.6.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "348bda24330eb231c0f27d630212d2833ac0cf2d4782bfa136b6f9edefbde05d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:golang/github.com/google/uuid@v1.6.0?goarch=arm64&goos=linux&type=module",
+      "externalReferences": [
+        {
+          "url": "https://github.com/google/uuid",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.49.0?type=module",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.49.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5dbce481824776a87ff26d94bb45bf750bfc9e4b71c780451e9d4cd2044e4d70"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/sys@v0.49.0?goarch=arm64&goos=linux&type=module"
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/term@v0.47.0?type=module",
+      "type": "library",
+      "name": "golang.org/x/term",
+      "version": "v0.47.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "729c8ec1092bd8dcf17b6a7a2a7ad31bb122db0b738ecb928e1a575dea59fc13"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/term@v0.47.0?goarch=arm64&goos=linux&type=module"
+    },
+    {
+      "bom-ref": "pkg:golang/std@go1.27.2?type=module",
+      "type": "library",
+      "name": "std",
+      "version": "go1.27.2",
+      "scope": "required",
+      "purl": "pkg:golang/std@go1.27.2?goarch=arm64&goos=linux&type=module"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:golang/github.com/Cequenced-Systems/cequencedteamcli_venus@v26.10.21.2?type=module#cmd/cqt",
+      "dependsOn": [
+        "pkg:golang/github.com/BurntSushi/toml@v1.6.0?type=module",
+        "pkg:golang/github.com/google/uuid@v1.6.0?type=module",
+        "pkg:golang/golang.org/x/sys@v0.49.0?type=module",
+        "pkg:golang/golang.org/x/term@v0.47.0?type=module",
+        "pkg:golang/std@go1.27.2?type=module"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/BurntSushi/toml@v1.6.0?type=module"
+    },
+    {
+      "ref": "pkg:golang/github.com/google/uuid@v1.6.0?type=module"
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/sys@v0.49.0?type=module"
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/term@v0.47.0?type=module",
+      "dependsOn": [
+        "pkg:golang/golang.org/x/sys@v0.49.0?type=module"
+      ]
+    },
+    {
+      "ref": "pkg:golang/std@go1.27.2?type=module"
+    }
+  ]
+}
